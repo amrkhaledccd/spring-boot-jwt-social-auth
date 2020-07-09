@@ -30,7 +30,7 @@ const Signin = (props) => {
   const initFacebookLogin = () => {
     window.fbAsyncInit = function () {
       FB.init({
-        appId: "118319422120166",
+        appId: "{app_id}",
         autoLogAppEvents: true,
         xfbml: true,
         version: "v7.0",
